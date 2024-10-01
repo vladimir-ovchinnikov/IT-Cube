@@ -3,7 +3,7 @@ body{
     margin:0;
 }
 
-
+/* HEADER  */
 .header{
     background: #00000077;
     display: flex;
@@ -28,4 +28,21 @@ body{
     padding: 20px;
     text-decoration: none;
 }
-    
+    /* COVER */
+.cover{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.007), rgba(0, 0, 0, 0.007)), url(./images/scale_1200.jfif);
+    background-size: cover;
+}
+.cover__text{
+    color: black;
+}
+.cover__slogan{
+font-size:50px;
+font-weight: 600;
+}
+.cover__deskr{
+    color: black;
+    font-size:50px ;
+    font-weight: 600;
+}
