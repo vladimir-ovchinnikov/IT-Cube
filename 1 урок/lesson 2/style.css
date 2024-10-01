@@ -1,0 +1,18 @@
+body {
+     background-image: url(./картинки/варкрафт.webp);
+     background-size: cover;
+}
+
+div{
+    background-color: rgba(255, 255, 255, 0.363) ;
+width: 600px;
+font-family: sans-serif;
+padding: 30px 15px 30px 15px;
+margin-left:30px ;
+}
+h1{color: rgb(214, 205, 255);
+text-align: center;
+}
+p{ color: rgb(0, 217, 255);}
+h2{color: rgb(226, 43, 43);}
+!

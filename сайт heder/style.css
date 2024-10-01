@@ -1,0 +1,31 @@
+body{
+    font-family: "Rubik", system-ui;
+    margin:0;
+}
+
+
+.header{
+    background: #00000077;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+.header__logo{
+    width: 700px;
+}
+
+.header__nav a{
+    color: beige;
+    text-decoration: none;
+}
+
+
+.header__mail{
+    color: beige;
+    background-color: #000000f5;
+    border-radius: 50px; /* Уголки */
+    padding: 20px;
+    text-decoration: none;
+}
+    
