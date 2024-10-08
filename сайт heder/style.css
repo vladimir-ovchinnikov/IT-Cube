@@ -2,7 +2,6 @@ body{
     font-family: "Rubik", system-ui;
     margin:0;
 }
-
 /* HEADER  */
 .header{
     background: #00000077;
@@ -14,13 +13,10 @@ body{
 .header__logo{
     width: 700px;
 }
-
 .header__nav a{
     color: beige;
     text-decoration: none;
 }
-
-
 .header__mail{
     color: beige;
     background-color: #000000f5;
@@ -31,11 +27,17 @@ body{
     /* COVER */
 .cover{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.007), rgba(0, 0, 0, 0.007)), url(./images/scale_1200.jfif);
+    background: linear-gradient(rgba(0, 0, 0, 0.027), rgba(0, 0, 0, 0.027)), url(../картинки/Капибара\ 8\ октября-1-sharpen-sharpen-1.jpg);
     background-size: cover;
+    position: relative;
 }
 .cover__text{
     color: black;
+    position: absolute;
+    left: 50;
+    top: 50%;
+    transform: translateY(-50%);
+
 }
 .cover__slogan{
 font-size:50px;
@@ -46,3 +48,9 @@ font-weight: 600;
     font-size:50px ;
     font-weight: 600;
 }
+
+.portfolio__row{
+display: flex;
+justify-content: space-between;
+}
+
