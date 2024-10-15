@@ -37,7 +37,6 @@ body{
     left: 50;
     top: 50%;
     transform: translateY(-50%);
-
 }
 .cover__slogan{
 font-size:50px;
@@ -48,9 +47,19 @@ font-weight: 600;
     font-size:50px ;
     font-weight: 600;
 }
-
-.portfolio__row{
+.mishki__vidio_i_text{
 display: flex;
 justify-content: space-between;
+justify-items: center;
+width: 1600px;
 }
-
+.mishki__vidio{
+    margin-right: 55px ;
+    margin-left: 10px;
+}
+.mishki__vidio_i_text{
+    text-align: center;
+}
+.mishki__vidio_i_text{
+    background-image:url(./images/мишка.jpg) ;
+}
