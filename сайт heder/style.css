@@ -2,6 +2,18 @@ body{
     font-family: "Rubik", system-ui;
     margin:0;
 }
+.block{
+padding-right:150px ;
+    padding-left:150px;
+    padding-top: 100px;
+}
+
+.block__title{
+font-size: 35px;
+margin-bottom: 50px;
+
+
+}
 /* HEADER  */
 .header{
     background: #00000077;
@@ -51,7 +63,7 @@ font-weight: 600;
 display: flex;
 justify-content: space-between;
 justify-items: center;
-width: 1600px;
+width: 100%;
 }
 .mishki__vidio{
     margin-right: 55px ;
@@ -60,6 +72,39 @@ width: 1600px;
 .mishki__vidio_i_text{
     text-align: center;
 }
-.mishki__vidio_i_text{
+.mishki{
     background-image:url(./images/мишка.jpg) ;
 }
+.Kapibarki__vidio_i_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 100%;
+}
+.Mishki__text{
+    text-align: center;
+}
+.servieces__table{
+weight: 100%;
+border-collapse: collapse;
+}S
+.servieces__table td, .servieces__table th{
+    padding: 20px 40px;
+}
+.servieces__table thead tr{
+    background: #000000a2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
