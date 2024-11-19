@@ -7,8 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
     <header class="header">
         <a href="#">
@@ -16,14 +16,14 @@
         </a>
 
         <nav class=header__nav>
-            <a href="#">О капибарах</a>
-            <a href="#">Друзья и враги</a>
-            <a href="#">Польза</a>
+            <a href="#cover">Услуги</a>
+            <a href="#mishki_block">Примеры</a>
+            <a href="#servieces_block">Как заказать</a>
         </nav >
         <a href="mailto: elektronnaay po4ta" class="header__mail">Написать на почту</a>
     </header>
     <main class="main">
-        <section class="cover">
+        <section id="cover" class="cover">
         <div class="cover__text">
             <p ckass="cover__slogan"> <em>Ваш интерес - моя забота</em></p>
             <p class="cover__deskr"> <em>Рассказываю про окружающий мир понятно даже для ребенка</em<</p>
@@ -31,12 +31,11 @@
 
         </div>
         </section>
-    <section class="mishki block">
+    <section id="mishki_block" class="mishki block">
 <div class="mishki__vidio_i_text">
      <section class="mishki__vidio_i_text block">
     <h2 class="block__title">ㅤ</h2>
      <video src="https://www.w3schools.com/html/movie.mp4" controls autoplay muted class="mishki__vidio"></video> 
-
     <div class="mishki__text">
         <div class="mishci">
             <div><h2>Медведи</h2>            
@@ -73,13 +72,13 @@
     <source src="https://example.com/our-video.webm" type="video/webm">
     <source src="https://example.com/our-video.ogg" type="video/ogg">
 </video> -->
-<!-- я ничего не понимаю((((( -->
+<!--СЛИШКОМ МНОГО ТЕГОВ((((( -->
     </section>
     <section>
-        <section class="Kapibarki block">
+        <section class="Kapibarki__block">
             <h2 class="block title"></h2>
             <div class="Kapibarki__vidio_i_text">
-                 <video src="https://www.w3schools.com/html/movie.mp4" controls autoplay muted class="Kapibarki__vidio"></video> 
+                <iframe width="560" height="315" src="https://ok.ru/videoembed/7502652902105?nochat=1&autoplay=1" frameborder="0" allow="autoplay" allowfullscreen></iframe>
             
                 <div class="Kapibarki__text">
                     <div class="Kapibarki">
@@ -107,8 +106,8 @@
                 </div>
             </div>
     </section>
-    <section class="servieces block">
-<h2 class="block__title"> Услуги</h2>
+    <section id="servieces_block" class="servieces block">
+<h2 class="block__title">Заказ</h2>
 <table class="servieces__table">
 <thead>
     <tr><th>Услуги</th>
@@ -131,7 +130,7 @@
     <p>5000 капибаракойнов</p>
     <p>10000 боброкойнов</p>
 </td>
-<td><p>Когда смогу,тогда сдам</p>
+<td><p>Когда смогу, тогда сдам</p>
     <P class="td__no">НО</P>
    <p> За повышенную плату ускорюсь в 4 раза</p>
 <p>За печеньки и чай ускорюсь в 5 раз</p> 
@@ -139,8 +138,8 @@
     </tr>
 </tbody>
 </table>  
-    </section class="block__contacts">
-    <section>
+    </section >
+    <section class="block__contacts block">
 <h2 class="block__title">Контакты</h2>
 <form action="" method="get" class="contacts__form">
 

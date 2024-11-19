@@ -2,6 +2,9 @@ body{
     font-family: "Rubik", system-ui;
     margin:0;
 }
+html{
+    scroll-behavior: smooth;
+}
 .block{
 padding-right:150px ;
     padding-left:150px;
@@ -29,12 +32,19 @@ margin-bottom: 50px;
     color: beige;
     text-decoration: none;
 }
+.header__nav a:hover {
+color: rgb(9, 7, 119);
+}
 .header__mail{
     color: beige;
     background-color: #000000f5;
     border-radius: 50px; /* Уголки */
     padding: 20px;
     text-decoration: none;
+}
+.header__mail:hover{
+    color: rgb(207, 12, 12);
+    transition: ;
 }
     /* COVER */
 .cover{
@@ -85,7 +95,7 @@ width: 100%;
     text-align: center;
 }
 .servieces__table{
-weight: 100%;
+    width: 100%;
 border-collapse: collapse;
 }S
 .servieces__table td, .servieces__table th{
@@ -94,22 +104,39 @@ border-collapse: collapse;
 .servieces__table thead tr{
     background: #000000a2;
 }
-.Kapibarki {
+.Kapibarki__block{
     background-image: url(./images/5\ ноября\ капибара.jpg);
-  
+    background-size: cover;
 
 }
 .red{color: red;}
 .td__no{
     text-align: center;
 }
-
-
-
-
-
-
-
-
+.mishki__podrobnee{
+    color: blue;
+}
+.mishki__podrobnee:hover{
+    color: crimson;
+}
+.block__contacts{
+    margin-bottom: 100px;
+}
+.contacts__form{
+    background-color: rgb(240, 254, 255);
+    padding: 40px;
+border-radius: 20px;
+border: 5px dotted black;
+}
+.contacts__input{
+    padding: 10px;
+    border: 1px solid;
+font-size: 16px;
+min-width: 350px;
+border-radius: 5px;
+}
+.Kapibarki__text{
+    margin-left: 30px;
+}
 
 
