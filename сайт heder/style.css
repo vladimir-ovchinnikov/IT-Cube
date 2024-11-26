@@ -127,16 +127,38 @@ border-collapse: collapse;
     padding: 40px;
 border-radius: 20px;
 border: 5px dotted black;
+display: flex;
+justify-content: space-between;
 }
 .contacts__input{
     padding: 10px;
     border: 1px solid;
 font-size: 16px;
-min-width: 350px;
+min-width: 250px;
 border-radius: 5px;
+
 }
 .Kapibarki__text{
     margin-left: 30px;
 }
-
-
+.contacts__column{
+display: flex;
+flex-direction: column;
+}
+.contacts__label{
+    margin-top: 15px;
+     margin-bottom: 5px;
+}
+.contacts__btn{
+    align-self: flex-end;
+    color: beige;
+    background-color: #000000f5;
+    border-radius: 50px; /* Уголки */
+    padding: 20px;
+    text-decoration: none;
+}
+.contacts__btn:hover{
+    color: rgb(207, 12, 12);
+    transition: ;
+}
+   
