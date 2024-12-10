@@ -36,6 +36,7 @@ margin-bottom: 50px;
 color: rgb(9, 7, 119);
 }
 .header__mail{
+    align-self: flex-end;
     color: beige;
     background-color: #000000f5;
     border-radius: 50px; /* Уголки */
@@ -44,8 +45,47 @@ color: rgb(9, 7, 119);
 }
 .header__mail:hover{
     color: rgb(207, 12, 12);
-    transition: ;
 }
+/* всё что касается header должно быть выше медиа */
+@media(max-width: 1240px){
+.header{
+flex-direction: column;
+height: 100%;/*  меняем то что нам не нравиться при уменьшении/увеличени экрана */
+.send_me_letter{
+    color: black;
+
+}
+.send_me_letter:hover{
+    color: rgb(207, 12, 12);
+    background-color: rgb(240, 254, 255);
+    padding: 40px;
+border-radius: 20px;
+border: 5px dotted black;
+display: flex;
+justify-content: space-between;
+} 
+
+
+
+.header__link{
+    display: block;
+}
+.header__nav{
+    margin-bottom: 20px;
+}
+.send_me_letter{
+    margin-bottom: 30px; 
+text-align: center;
+padding: 10px;
+color: black;
+
+}
+}
+
+.header__logo{
+    border-top: 30px;
+}
+
     /* COVER */
 .cover{
     min-height: 100vh;
@@ -159,6 +199,5 @@ flex-direction: column;
 }
 .contacts__btn:hover{
     color: rgb(207, 12, 12);
-    transition: 
 }
    
