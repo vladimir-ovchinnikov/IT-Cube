@@ -17,6 +17,24 @@ margin-bottom: 50px;
 
 
 }
+@media(max-width:920px){
+    .block{ padding-left:100px;
+        padding-right:100px;
+    }
+
+}
+@media(max-width: 700px){
+.block{
+    padding-left:50px;
+    padding-right:50px;
+}
+}
+@media(max-width: 550px){
+    .block{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    }
 /* HEADER  */
 .header{
     background: #00000077;
@@ -46,24 +64,28 @@ color: rgb(9, 7, 119);
 .header__mail:hover{
     color: rgb(207, 12, 12);
 }
+.send_me_letter{
+    color: rgb(245, 245, 245);
+    background-color: black;
+    margin-bottom: 30px; 
+    text-align: center;
+    padding: 10px;
+     border-radius: 50px; /* Уголки */
+    padding: 20px;
+    text-decoration: none;
+
+
+}
+.send_me_letter:hover{
+    color: rgb(207, 12, 12);
+} 
 /* всё что касается header должно быть выше медиа */
 @media(max-width: 1240px){
 .header{
 flex-direction: column;
 height: 100%;/*  меняем то что нам не нравиться при уменьшении/увеличени экрана */
-.send_me_letter{
-    color: black;
-
 }
-.send_me_letter:hover{
-    color: rgb(207, 12, 12);
-    background-color: rgb(240, 254, 255);
-    padding: 40px;
-border-radius: 20px;
-border: 5px dotted black;
-display: flex;
-justify-content: space-between;
-} 
+
 
 
 
@@ -73,18 +95,13 @@ justify-content: space-between;
 .header__nav{
     margin-bottom: 20px;
 }
-.send_me_letter{
-    margin-bottom: 30px; 
-text-align: center;
-padding: 10px;
-color: black;
 
-}
 }
 
 .header__logo{
     border-top: 30px;
 }
+
 
     /* COVER */
 .cover{
@@ -108,6 +125,16 @@ font-weight: 600;
     color: black;
     font-size:50px ;
     font-weight: 600;
+}
+@media(max-width:830){
+    .cover__text{
+        left: 50px
+    }
+}
+@media(max-width:600){
+    .cover__text{
+        left:15px
+    }
 }
 .mishki__vidio_i_text{
 display: flex;
@@ -144,6 +171,11 @@ border-collapse: collapse;
 .servieces__table thead tr{
     background: #000000a2;
 }
+@media(max-width:800px){
+    .servieces__table th, .servieces__table td {
+        padding: 0;
+    }
+}
 .Kapibarki__block{
     background-image: url(./images/5\ ноября\ капибара.jpg);
     background-size: cover;
@@ -169,6 +201,7 @@ border-radius: 20px;
 border: 5px dotted black;
 display: flex;
 justify-content: space-between;
+flex-wrap: wrap;
 }
 .contacts__input{
     padding: 10px;
@@ -200,4 +233,9 @@ flex-direction: column;
 .contacts__btn:hover{
     color: rgb(207, 12, 12);
 }
-   
+  @media(max-width:1070px){
+    .video_i_text{
+        display: flex;
+        flex-direction: column;
+    }
+  }
