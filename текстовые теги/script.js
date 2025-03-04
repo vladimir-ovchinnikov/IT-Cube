@@ -1,6 +1,6 @@
 var fullName ="Владимир";
 //int - целое число
-//flo
+//float - дро
 //
 //str
 console.log(fullName)
